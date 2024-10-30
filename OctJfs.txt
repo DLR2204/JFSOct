@@ -1,0 +1,255 @@
+on-1  off-0   -------->Ascii/unicode....------>a-98
+
+s.l:- designing the website
+		html,css,bootstrap,js,ts......
+
+p.l:- developing the softwares
+		
+
+								computer lang 
+						Scripting lngs		programming langs
+										
+										pop(procedure o.p)		oop(object o.p)
+									basic,python,....			java,.net,python.....
+									
+									
+	security:- Abstraction,Encapsulation
+	
+	performance :- Inheritance,Polymorphism
+	
+	
+	java is :- oops       	oopl
+	
+	
+	sunmicro sys:-portability
+	
+	green team 
+	
+	greentalk(.gt)-------->oak------->java(.java)
+	
+	jdk 1.0--------------------------->jdk 23 (oracle)
+	
+	
+	jse/j2se:-standalone (no server -client) - core java
+	
+	jee/j2ee:-distributed(server -client),web app's  - core java+ frameworks =Adv java
+	
+	jme/j2me:-mobile app's- micro core java
+	
+	
+	(1)Portable 
+	
+	(2)Garbage Collector
+	
+	
+	version check:- java --version
+									
+	
+	53 keywords :- 
+	
+	
+	Variables :- 
+	
+			syntax:- 
+			
+				dt varname ;  //declaration of a variable
+				
+				dt varname = value; //initiallization of a variable
+				
+		local variable(inside the method body)		global variable(outside the method)
+											
+												static 					instance
+												
+	
+	syntax:-
+	-------
+
+static:-  	static dt varname = value;
+
+instance :-  		dt varname = value;
+
+
+	memory allocation:-
+	-----------------
+	
+static :- Static prop's will gets the memory space only once when the class loads into the jvm.
+
+instance :- instance prop's will gets the memory space for every object creation.
+
+	Access:-
+	------
+	
+static :- Static prop's(vr+meth) can be accessed by the class reference.
+
+instance :- Instance prop's can be accessed by the object reference.
+
+	Usage :-
+	-----
+	
+static:- to store common data       
+
+instance :- to store the unique data
+
+	in memory:-
+	---------
+	
+static :-In method area
+
+instance:-In heap area
+
+
+class ----- variable + methods(class members +member functions)
+
+
+object 
+
+
+OPERATORS:-  ULTRA AB
+----------------------
+
+									operand<-----a  +   b ---->operands
+
+Uniary operator
+
+Logical operator
+
+Ternary operator
+
+Relational operator
+
+Assignment operator
+
+Arithematic operator
+
+Bitwise operator
+
+
+Method:- set of statements where altogether performs the task.
+
+	based on the syntax diff :- 2 types		(1)Static method
+											(2)Dynamic method
+											
+	
+
+		Static method:-
+		
+				a.m static returntype methodname(parms..){		
+				//body
+				}
+				
+		Dynamic method:-
+		
+				a.m returntype methodname(parms..){
+				//body
+				}
+				
+				
+class:- variables + methods [class member +member functions]
+
+
+
+Inheritance:-Accquiring parent class features to the child class.
+------------
+							
+				*Code Reusability			
+						
+				extends 					implements
+			class ---> class 			interface----->class
+			
+		
+			
+		class A{							class B{
+		
+		add(int a,int b){					add(int x,int y){
+		
+		return a+b;							return x*y;
+		}									}
+								
+		
+		}									}
+		
+						class C extends A,B{
+						
+						obj.add(2,8);			//
+						
+						}
+						
+						
+		*M.I is not supported in java @Class level.
+		
+		*M.I is supported in java @interface level.
+		
+		
+		
+		methods:- based on the method body:- 2 types
+		
+			(1)concrete method  :- the method with method body/implementation.
+			
+							syntax:-
+							
+								a.m returntype methodname(parms..){
+								
+								//body
+								}
+								
+			
+			(2)abstract method:- the method without method body/implementation.
+		
+		
+						syntax:-
+							
+								a.m returntype methodname(parms..);
+								
+								
+		class:- It is the collection of only concrete methods.
+		
+		
+		interface :- It's the collection of only abstract methods.
+		
+		
+		abstract class:- It's the collection of both concrete and abstract methods.
+		
+		
+Abstraction:-Hiding the data
+============
+
+					* Security
+					
+	
+	interface ---100%
+	
+	
+	abstract ----0%-100%
+	
+	
+	class ------0%
+	
+	
+	Polymorphism:-Same method but will work's differently.
+	============
+
+
+		(1)methodOverloading:-same method name but difference is in it's params:-
+								(a)type of params..
+								(b)order of params..
+								(c)no:-of params..
+		
+		
+		(2)methodOverriding:- method name is same but the implementation is diff.
+		
+		
+		class Parent{
+		
+		1000Cr();
+		
+		marriage(){
+		kajol;
+		}
+		...............
+		}
+		
+		class Child extends Parent{
+		
+		
+		
+		}
