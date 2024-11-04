@@ -1,32 +1,29 @@
 package oops;
 
-interface Parent1{
+interface ParentA{
 	
-	public void add(int a,int b);
-	
-}
-interface Parent2{
-	
-	public void add(int a,int b);
-	
-	
+	public int add(int a,int b);
 }
 
-public class Child1 implements Parent1,Parent2{
+interface ParentB{
+	
+	public int add(int a,int b);
+}
+
+
+public class Child1 implements ParentA,ParentB{
 
 	@Override
-	public void add(int a, int b) {
-		System.out.println("The sum of two integer is:- "+(a+b));
+	public int add(int a, int b) {
 		
+		return (a+b);
 	}
-	
 	
 	public static void main(String[] args) {
 		
 		Child1 obj = new Child1();
 		
-		obj.add(23, 23);
-		
+		System.out.println(obj.add(34, 54));
 	}
 
 }
