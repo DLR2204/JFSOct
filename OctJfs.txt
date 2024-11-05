@@ -253,3 +253,62 @@ Abstraction:-Hiding the data
 		
 		
 		}
+		
+		Encapsulation:-Wraps up the data into a single unit.
+		
+		AccessModifer :- private public protected default
+		
+		
+		Constructor:-To initiallize the objects.
+		
+		
+				(1)Default constructor:-
+				
+					a.m className(){
+					
+					//body
+					}
+				
+				(2)parametrised constructor
+				
+					a.m className(params..){
+					
+					//body
+					}
+					
+					ClassName obj= new ClassName();
+					
+			****Constructor call must be the first statement in a constructor
+			
+			
+	
+		Array:-	It's a collection of similar kind of elements
+		=====
+		
+		(1)dt arrname[] = {1,2,3,4,5,6,67,7,8,9,4};
+		
+		(2)dt arranme[] = new dt[]{1,2,3,4,5,5,6,7,7,7};
+		
+		(3)dt arrname[] = new dt[10];
+		
+			arrname[0]  = 23;
+			
+			
+	limitations:-
+	============
+	
+	(1)It can only allows homogeneous elements.
+	
+	(2)it is fixed in size.
+	
+	(3)no utility methods.
+	
+	
+	collections:-(framework)   java.util
+	============
+	
+	(1)It can  allows both heterogeneous/homogeneous elements.
+	
+	(2)it is not fixed in size.
+	
+	(3)lots of utility methods.
