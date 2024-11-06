@@ -312,3 +312,12 @@ Abstraction:-Hiding the data
 	(2)it is not fixed in size.
 	
 	(3)lots of utility methods.
+	
+	
+	java.lang.Comparable---------->compareTo(object)-------->CSO
+	
+	java.util.Comparator---------->compare(obj1,obj2) ------>NSO
+	
+									apple , banana
+									
+									a-b=97-98 = -(-ve )= +ve
