@@ -321,3 +321,20 @@ Abstraction:-Hiding the data
 									apple , banana
 									
 									a-b=97-98 = -(-ve )= +ve
+									
+									
+									
+	fileHandling:- java.io.*
+	============
+	
+	
+	To create a file :- File
+	
+	To write into the file :- FileWriter
+							  BufferedWriter
+							  PrintWriter
+							  
+							  
+	To read from the file:-	  FileReader
+							  BufferedReader
+							  
