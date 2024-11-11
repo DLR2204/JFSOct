@@ -338,3 +338,26 @@ Abstraction:-Hiding the data
 	To read from the file:-	  FileReader
 							  BufferedReader
 							  
+							  
+							  
+	String:-
+	=======
+	
+	
+	
+	String varn = value;
+	
+	
+	String 				StringBuffer 				StringBuilder
+	
+(1)	immutable			mutable						mutable
+
+						synchronized				not-synchronized(mutlithreading)
+						
+						
+	
+	
+	MutliThreading:- The process of executing many process at a time.
+	
+	
+		
