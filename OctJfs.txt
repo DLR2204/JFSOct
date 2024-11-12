@@ -360,4 +360,51 @@ Abstraction:-Hiding the data
 	MutliThreading:- The process of executing many process at a time.
 	
 	
+									Database:-
+									=========
+		apples		334			
+
+		tulips		234	
+					
+		roses		232				
+									
+		toys		344
 		
+		
+		Data :- raw info 
+		
+		
+		Database :- organised collection of data.
+		
+		
+		Table :- rows(records) + columns(fields)
+		
+		oracle---------------->sql
+		
+		mysql----------------->mysql
+		
+		querys:-To perform any kind of operation in the db we need use querys.5 categories:-
+		======
+		
+		
+		(1)DDL(Data Definition Language):-create,alter,drop,truncate,rename
+		
+		(2)DML(Data Manipulation Language):-insert,update,delete
+		
+		(3)DRL(Data Retrival Language):-select
+		
+		(4)DCL(Data Control Language):- grant,revoke
+		
+		(5)TCL(Trans'xn Control Language):- commit,rollback
+		
+		
+		Table creation:- 
+		
+		create table emp(eid int,ename varchar(10),esal int);
+		
+		
+		drop :-deletes table from database
+		
+		truncate :- deletes data inside the table
+		
+		delete:-
