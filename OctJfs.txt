@@ -377,7 +377,7 @@ Abstraction:-Hiding the data
 		Database :- organised collection of data.
 		
 		
-		Table :- rows(records) + columns(fields)
+		RDBMS ------->Table :- rows(records) + columns(fields)
 		
 		oracle---------------->sql
 		
@@ -387,15 +387,15 @@ Abstraction:-Hiding the data
 		======
 		
 		
-		(1)DDL(Data Definition Language):-create,alter,drop,truncate,rename
+		(1)DDL(Data Definition Language):-create,alter,drop,truncate,rename   [auto-committed]
 		
-		(2)DML(Data Manipulation Language):-insert,update,delete
+		(2)DML(Data Manipulation Language):-insert,update,delete  [not auto-committed]
 		
 		(3)DRL(Data Retrival Language):-select
 		
 		(4)DCL(Data Control Language):- grant,revoke
 		
-		(5)TCL(Trans'xn Control Language):- commit,rollback
+		(5)TCL(Trans'xn Control Language):- commit(ctrl+s),rollback(ctrl+z)
 		
 		
 		Table creation:- 
@@ -407,4 +407,10 @@ Abstraction:-Hiding the data
 		
 		truncate :- deletes data inside the table
 		
-		delete:-
+		delete:-we can delete the selected rows.
+		
+	cmd>	truncate table emp/delete from emp;  ====>deletes all the records inside the table
+	
+	
+	
+	
