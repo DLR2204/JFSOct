@@ -412,5 +412,48 @@ Abstraction:-Hiding the data
 	cmd>	truncate table emp/delete from emp;  ====>deletes all the records inside the table
 	
 	
+										jdbc:-
+										=====
+										
+				java database connectivity.
 	
 	
+	(1)Loading the drivers
+	
+	(2)Create the connection
+	
+	(3)Create the statement
+	
+	(4)Exceute the statement
+	
+	(5)Close the connections
+	
+	
+	
+	limitations:-
+	============
+	
+	(1)querys
+	
+	(2)exception clsses
+	
+	(3)same file for db prop's,logic
+	
+	(4)boiler plate code(repeated code)
+	
+	(5)Table creation manually
+	
+	
+	
+	jpa(java persistence API):-
+	==========================
+	
+	(1)No querys
+	
+	(2)No exception clsses
+	
+	(3)different file for db prop's,logic
+	
+	(4)No boiler plate code(repeated code)
+	
+	(5)No table creation manually
