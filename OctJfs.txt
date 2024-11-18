@@ -445,7 +445,7 @@ Abstraction:-Hiding the data
 	
 	
 	
-	jpa(java persistence API):-
+	jpa(java persistence API):-[specification]  ---->interfaces
 	==========================
 	
 	(1)No querys
@@ -457,3 +457,46 @@ Abstraction:-Hiding the data
 	(4)No boiler plate code(repeated code)
 	
 	(5)No table creation manually
+	
+	
+	ORM Tools:-(Object Relational Mapping)---------------->Implementation
+	
+	
+	hibernate,ecllipse link,top link ,ibatis.........
+	
+	
+	class -----mapped--------> table
+	
+	variables ---mapped------->columns
+	
+	object -----mapped-------->row
+	
+	
+	EntityManagerFactory --------------------EntityManager ----------------->
+	
+	insert -------------->persist();   c-create r-retrive  u- update d-delete
+	
+	update--------------->merge();		
+	
+	delete -------------->remove();
+	
+	select --------------->find();
+	
+	
+	
+	<persistence>
+	
+	<persitence-unit  name="apple" trand="resourcelocal">
+	
+	<properties>
+	
+	<property >
+	
+	
+	</properties>
+	
+	
+	</persitence-unit>
+	
+	
+	</persistence>
