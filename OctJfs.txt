@@ -500,3 +500,107 @@ Abstraction:-Hiding the data
 	
 	
 	</persistence>
+	
+	
+	
+	Maven:-It is a build tool
+	
+	
+									
+									Spring 
+									------
+									
+									
+		Spring:- Spring is a non-invasive framework which is used to develop light-weighted and 
+		=======
+					loosley coupled web applications.
+					
+					
+			
+			invasive:-it will forces the programmer to use the predefined api
+			
+			
+			non-invasive :- It will not forces the programmer to use the predefined api
+			------------
+			
+			
+			heavy-weighted:-
+			---------------
+			
+			
+			class A{
+			
+			1000 methods
+			
+			}
+			
+			class B extends A{
+			
+			10 methods ========>1010 methods
+			
+			}
+			
+			class C extends B{
+			 
+			1 method  + 10 +1000  =====>1011 methods
+			
+			}
+			
+			
+			tightly coupled:-If the dependencies btn the classes are very high 
+			
+			loosley coupled:- If the dependencies btn the classes are very low
+			----------------
+			
+			
+			spring 1.x  ---------------->2003
+			
+			spring 6.x 
+			
+			
+			Spring Core,Spring Security,Spring Boot,Spring REST,Spring Cloud,Spring Data JPA,Spring Web,..................
+			
+			
+			
+			
+			
+			
+	Spring Core:-To avoid the dependencies btn the classes and to create a loosley coupled 
+	============								web Applications
+	
+	
+	
+		Containers:- These are used to create the objects
+		-----------
+						(1)BeanFactory
+						(2)Application Context
+						
+	    
+		Dependency Injection:- Injecting data into the object
+		--------------------
+		
+						(1)Setter Injection   -------><property></property>
+						
+						(2)Constructor Injection ------><constructor-arg></constructor-arg>
+						
+						(3)autowire 
+						
+						
+		Configurations:-
+		---------------
+						(1)Xml Configurations  
+						
+						
+						<beans>
+						
+						<bean id="" class=""></bean>
+						
+						</beans>
+						
+						
+						
+						
+						(2)Annotation Configuration
+						
+						
+		
