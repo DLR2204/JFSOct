@@ -604,3 +604,13 @@ Abstraction:-Hiding the data
 						
 						
 		
+		SpringBoot:-
+		==========
+		
+		(1)AutoConfiguration 
+		
+		(2)Downloads Embedded server :- tomcat server :-8080
+		
+		(3)Starters  :- set of jar files
+		
+		(4)Actuators  :-provides the env/status/health of our app through end point urls.
