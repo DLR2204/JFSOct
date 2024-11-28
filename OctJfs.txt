@@ -614,3 +614,55 @@ Abstraction:-Hiding the data
 		(3)Starters  :- set of jar files
 		
 		(4)Actuators  :-provides the env/status/health of our app through end point urls.
+		
+		
+		
+		controller:- it will interact with the client through http urls
+		
+		
+		repository:-it will interact with the db
+		
+		
+		service:-it is the mediator b/n controller nd (dao)repository
+		
+		
+		
+		Spring Rest:-
+		
+		WebServices:- webservices is used to make the communication possible between two 
+						interoperable app's.
+						
+		
+		SOAP :- the common lang is xml
+		
+		REST :-common lang are:- xml,html,json,php,txt........
+		
+									FrontEnd
+									========
+		
+	Html :- text is linking  with a webpage/website  -------->
+	
+	
+	website:- collection of webpages
+	
+						(1)Static WebPage:- webpages are stagnant
+						
+						(2)Dynamic WebPage:- Changes will happens regularly
+						
+						(3)Server WebPage :- data from static/dynamic webpage is stored in the server webpage 
+		
+		
+	
+	.html/.htm
+	
+	
+	<predefined word>
+	
+	tags:-
+	
+	(1)Container/pair tag :- <openingtag></closingtag>
+	
+	(2)Empty/Single tag:-  <tag> or </tag> or </tag>
+	
+	
+	
