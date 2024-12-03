@@ -656,7 +656,7 @@ Abstraction:-Hiding the data
 	.html/.htm
 	
 	
-	<predefined word>
+	<predefined word> 
 	
 	tags:-
 	
@@ -666,3 +666,34 @@ Abstraction:-Hiding the data
 	
 	
 	
+		<tag class="value">  Content  </tag>    -------> Element in html
+				attribute
+				
+				
+	Lists:- <li></li>
+	
+	Bullets       - <ul></ul>
+	Numeberings   -	<ol></ol>
+	
+	
+	Linking tags:-   <a href="url"></a>
+	
+			(1)Text linking tag
+			
+			(2)Image linking tag
+			
+			
+			table :- rows + columns
+			
+			<table></table>
+			
+			<tr> </tr>
+			
+			<td></td>
+			
+			
+			elements:-
+			
+			(1)Block elements
+			
+			(2)Inline elements
