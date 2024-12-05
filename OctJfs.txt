@@ -697,3 +697,42 @@ Abstraction:-Hiding the data
 			(1)Block elements
 			
 			(2)Inline elements
+			
+			
+								CSS
+								===
+								
+				
+			(1)Inline styling  :- Style att in the openingtag
+			
+			(2)Internal Styling :- <style> tag inside the <head> tag
+			
+			(3)External styling :- attaching .css  file to the html document
+			
+			
+	colors:- 
+	========
+	
+	(1)color name 
+	
+	(2)hexadecimal(#) - r(00-ff),b(00-ff),g(00-ff)
+	
+	(3)rgb function (rgb(r,g,b)) (0-255)
+	
+	(4)rgb with alpha (rgb(r,g,b,(0-1)))
+	
+	(5)hsl(hsl(h,s,l))(0-100%)(0-100%)(0-360)
+	
+	(6)hsl(hsl(h,s,l,(0-1)))
+	
+	
+	selectors:-
+
+
+		(1)tag name 		- 
+		
+		(2)id name(#)		-#idname
+		
+		(3)class name(.)	-.classname
+		
+		(4)universal (*)    - *
