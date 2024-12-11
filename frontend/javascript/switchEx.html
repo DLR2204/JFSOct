@@ -1,0 +1,64 @@
+<html>
+
+<head><title>Switchxample</title>
+<script >
+function percentage(){
+
+document.getElementById("perc").value = (document.getElementById("om").value/document.getElementById("mm").value)*100;
+
+var percentage = document.getElementById("perc").value ;
+
+var gpa;
+
+switch(Math.floor(percentage/10))
+{
+	case 10 :{ gpa="Ex";
+		break;}
+
+	case 9 :{ gpa="A";
+		break;}
+
+	case 8 :{ gpa="B";
+		break;}
+
+	case 7:{ gpa="C";
+		break;}
+
+	default:
+	{ gpa="D";
+		break;}
+
+
+
+
+
+}
+
+document.getElementById("grade").value = gpa;
+
+}
+
+
+</script>
+
+</head>
+
+<body bgcolor="lightgrey"><center>
+
+<h1><u>Percentage & Grade Calculator</u></h1>
+
+<h2>ObtainedMarks :- <input type="text" id="om"></h2>
+
+<h2>Max Marks :- <input type="text" id="mm"></h2>
+
+
+<button type="button" onclick='percentage()'>  check </button>
+
+<h2>Percentage :- <input type="text" id="perc">
+
+Grade :- <input type="text" id="grade"></h2>
+
+</center>
+
+</body>
+</html>
