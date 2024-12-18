@@ -736,3 +736,74 @@ Abstraction:-Hiding the data
 		(3)class name(.)	-.classname
 		
 		(4)universal (*)    - *
+		
+		
+									javascript:-
+									-----------
+									
+			(1)To dynamic webpages 
+		
+			
+			(2)To change the html content
+			
+			(3)To change the css 
+			
+			(4)To change the html atrributes
+			
+			(5)To hide the data
+			
+			(6)To create interactive webpage
+			
+			
+		
+		(1)Internal :- <script> tag is placed inside the <head>/<body>
+		
+		(2)External :-  attacthing .js file to the html document
+		
+		
+		output functions in js :- 
+		-----------------------
+		
+		
+		(1)innerHTML   :- using id of a element it will update the data in the webpage
+		
+		(2)document.write() :- text inside write will be printed in the webpage
+		
+		(3)window.alert() :- text inside alert will be displayed in the alert box
+		
+		(4)console.log()  :- text inside the function will be displayed in the console window
+		
+		
+		
+		variable:- 
+		---------
+		
+					var variableName ;  //declaration of a variable
+					
+				var	variableName = value; //intiallization of a variable
+				
+				
+	syntax :- 
+	
+		function functionName(params..){
+		
+		//body
+		}
+		
+		
+		
+		Bootstrap :- 
+		-----------
+		
+		(1)cdn(content delivery network)
+		
+		
+		(2)Downloading the files.
+	
+	
+	GridSystem:-  class=container
+	----------- 	class=row
+					class=col
+					
+					
+	html :- <nav> / class = nav /navbar
