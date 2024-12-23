@@ -807,3 +807,14 @@ Abstraction:-Hiding the data
 					
 					
 	html :- <nav> / class = nav /navbar
+	
+			React :- 
+			=======
+			
+			Component :- Describes the ui.These are re-usable
+			
+			2 types :- 
+			
+			(1)Stateless functional components  [js function]
+			
+			(2)Stateful Class components		[js class]
