@@ -818,3 +818,28 @@ Abstraction:-Hiding the data
 			(1)Stateless functional components  [js function]
 			
 			(2)Stateful Class components		[js class]
+			
+			
+			props :- properties 			
+			======
+			
+			html att w.r.t tag
+			
+			params... inside the method
+			
+			
+			
+			State :-It's like a varible 
+			======
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
