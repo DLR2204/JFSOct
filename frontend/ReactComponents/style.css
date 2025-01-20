@@ -1,0 +1,8 @@
+.parent{
+    background-color: lightgray;
+    border:solid;
+}
+.child{
+    background-color: aqua;
+    border:double;
+}
